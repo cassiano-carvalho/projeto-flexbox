@@ -109,7 +109,7 @@ img {
 
 /*FHD */ 
 
-@media (max-width: 1620px) {
+@media (max-width: 1500px) {
     section div {
         flex: 1 1 300px;
     }
@@ -124,7 +124,7 @@ img {
 
 /*& FHD+*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
     section div {
         flex: 1 1 350px;
     }
@@ -139,7 +139,7 @@ img {
 
 /*TELAS MÉDIAS*/
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
         header {
         background-color: black;
         display: flex;
