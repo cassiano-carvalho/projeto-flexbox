@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+
+
+/*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*CABEÇALHO*/
+header {
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+#logo {
+    color: white;
+}
+
+nav, li, a, ul{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+li{
+    padding-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*ÁREA PRINCIPAL*/
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+p {
+    color: gray;
+    text-align: center;
+}
+
+
+
+/* FLEX*/
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+section div {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*IMAGENS*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#ult-caixa {
+    max-width: 39.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*RESPONSIVIDADE*/
+
+/*TELAS 2K*/
+
+@media (max-width: 2560px) {
+    section div {
+        flex: 1 1 250px;
+    }
+
+    #ult-caixa{
+    display: flex;
+    flex-direction: column;
+    max-width: 39.5%;
+    height: auto;
+    }
+}
+
+/*FHD */ 
+
+@media (max-width: 1620px) {
+    section div {
+        flex: 1 1 300px;
+    }
+
+    #ult-caixa{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    height: auto;
+    }
+}
+
+/*& FHD+*/
+
+@media (max-width: 1200px) {
+    section div {
+        flex: 1 1 350px;
+    }
+
+    #ult-caixa{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    }
+}
+
+/*TELAS MÉDIAS*/
+
+@media (max-width: 800px) {
+        header {
+        background-color: black;
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        font-size: 9px;
+    }
+
+    #logo {
+        color: white;
+    }
+
+    nav, li, a, ul{
+        display: inline-flex;
+        justify-content: flex-end;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    section div {
+        flex: 1 1 400px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/*TELAS PEQUENAS*/
+
+@media (max-width: 670px) {
+    header {
+        background-color: black;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #logo {
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    nav, li, a, ul{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-right: 20px;
+    }
+
+    li{
+        background-color: grey;
+    }
+}

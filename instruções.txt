@@ -1,0 +1,5 @@
+Opções de acesso:
+1 - Acesso pelo GitHub Pages
+
+
+2 - Acesso pelo Vercel
