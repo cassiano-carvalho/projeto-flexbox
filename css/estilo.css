@@ -102,7 +102,7 @@ img {
     #ult-caixa{
     display: flex;
     flex-direction: column;
-    max-width: 39.5%;
+    max-width: 50.5%;
     height: auto;
     }
 }
