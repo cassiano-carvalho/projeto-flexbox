@@ -1,5 +1,6 @@
 Opções de acesso:
 1 - Acesso pelo GitHub Pages
-
+https://cassiano-carvalho.github.io/projeto-flexbox/
 
 2 - Acesso pelo Vercel
+https://projeto-flexbox-theta.vercel.app/
